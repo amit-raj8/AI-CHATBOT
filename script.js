@@ -45,7 +45,7 @@ const handleOutgoingMessage = (e) => {
   
   const incomingMessageDiv = createMessageElement(messageContent, "bot-message", "thinking");
   chatBody.appendChild(incomingMessageDiv);
-  
+  generateBotResponse();
   }, 600);
 
 }
